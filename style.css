@@ -9,20 +9,24 @@ h2 {
 h3 {
   border-bottom: 2px solid #abdabd;
 }
-main {
-
-}
-
 .customer {
   text-align: center;
-  /*border: 2px solid black;*/
-  width: 300px;
+  width: 275px;
   padding: 10px;
-
+  float: left;
+  margin-left: 10px;
 }
-
-
 .address {
   text-align: center;
   margin: 10px;
+}
+
+.ssn {
+  color: transparent;
+   text-shadow: 0 0 5px #abdabd;
+}
+
+.ssn:hover {
+  color: black;
+  
 }

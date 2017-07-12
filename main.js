@@ -1,3 +1,5 @@
+
+
 customers.results.forEach(function(data) {
   const template = `
   <article>
