@@ -35,7 +35,7 @@ header {
 
 .ssn {
   color: transparent;
-  text-shadow: 0 0 1px #abdabd;
+  text-shadow: 0 0 5px #abdabd;
 }
 
 .ssn:hover {
