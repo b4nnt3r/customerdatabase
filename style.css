@@ -9,6 +9,13 @@ h2 {
 h3 {
   border-bottom: 2px solid #abdabd;
 }
+header {
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .customer {
   text-align: center;
   width: 275px;
@@ -16,17 +23,21 @@ h3 {
   float: left;
   margin-left: 10px;
 }
+
 .address {
   text-align: center;
   margin: 10px;
 }
 
+.phone {
+  padding: 10px;
+}
+
 .ssn {
   color: transparent;
-   text-shadow: 0 0 5px #abdabd;
+  text-shadow: 0 0 1px #abdabd;
 }
 
 .ssn:hover {
   color: black;
-  
 }

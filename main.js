@@ -1,4 +1,9 @@
+let main = document.querySelector(".main");
+let doc1 = document.createElement("header");
+let head = document.createTextNode("Internal Company Directory");
 
+doc1.appendChild(head);
+main.appendChild(doc1);
 
 customers.results.forEach(function(data) {
   const template = `
@@ -13,7 +18,7 @@ customers.results.forEach(function(data) {
       ${data.email}
       </div>
       <div class="address">
-      ${data.location.street}
+      ${data.location.street}<br>
       ${data.location.city}
       ${data.location.state}
       ${data.location.postcode}
