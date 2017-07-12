@@ -1,0 +1,31 @@
+body {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  border-bottom: 2px solid #abdabd;
+  border-width: thin;
+}
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+.address {
+  text-align: center;
+  margin: 10px;
+
+}
+
+
+/*<h3>${customers.results[i].name.first}
+${customers.results[i].name.last}</h3>
+${customers.results[i].email}
+${customers.results[i].location.street}
+${customers.results[i].location.city}
+${customers.results[i].location.state}
+${customers.results[i].location.postcode}*/
