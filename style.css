@@ -1,16 +1,13 @@
-body {
-}
-
 h2 {
   text-align: center;
   text-transform: uppercase;
-
 }
 
 h3 {
   /*border-bottom: 2px solid #abdabd;*/
   text-transform: uppercase;
 }
+
 header {
   text-transform: uppercase;
   text-align: center;
@@ -18,15 +15,16 @@ header {
   font-size: 40px;
   font-weight: bold;
 }
+
 img {
   width: 15em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .email {
   text-transform: uppercase;
-
 }
 
 .name {
@@ -39,7 +37,6 @@ img {
   width: 275px;
   padding: 10px;
   float: left;
-
 }
 
 .address {
