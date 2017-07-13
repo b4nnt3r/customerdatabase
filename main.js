@@ -10,11 +10,13 @@ customers.results.forEach(function(data) {
   <article>
     <div class="customer">
       <div class="image">
-      <img src="${data.picture.large}">
+      <img src="${data.picture.medium}">
       </div>
       <div class="name">
       <h3>${data.name.first}
       ${data.name.last}</h3>
+      </div>
+      <div class="email">
       ${data.email}
       </div>
       <div class="address">

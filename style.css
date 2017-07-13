@@ -1,19 +1,37 @@
 body {
-  text-transform: uppercase;
 }
 
 h2 {
   text-align: center;
+  text-transform: uppercase;
+
 }
 
 h3 {
-  border-bottom: 2px solid #abdabd;
+  /*border-bottom: 2px solid #abdabd;*/
+  text-transform: uppercase;
 }
 header {
+  text-transform: uppercase;
   text-align: center;
   padding: 50px;
   font-size: 40px;
   font-weight: bold;
+}
+img {
+  width: 15em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.email {
+  text-transform: uppercase;
+
+}
+
+.name {
+  text-decoration: underline;
+  text-decoration-color: #abdabd;
 }
 
 .customer {
@@ -21,10 +39,11 @@ header {
   width: 275px;
   padding: 10px;
   float: left;
-  margin-left: 10px;
+
 }
 
 .address {
+  text-transform: capitalize;
   text-align: center;
   margin: 10px;
 }
@@ -36,6 +55,7 @@ header {
 .ssn {
   color: transparent;
   text-shadow: 0 0 5px #abdabd;
+  padding-bottom: 15px;
 }
 
 .ssn:hover {
