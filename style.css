@@ -5,7 +5,7 @@ h2 {
 
 h3 {
   border-bottom: 2px solid #abdabd;
-  border-bottom-width: thick;
+  border-bottom-width: medium;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   text-transform: uppercase;
@@ -20,6 +20,7 @@ header {
   padding-top: 50px;
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
 
 img {
@@ -36,6 +37,7 @@ img {
 .main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .customer {
