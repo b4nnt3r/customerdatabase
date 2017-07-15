@@ -1,8 +1,12 @@
+
+
+
+
 let main = document.querySelector(".main");
 let doc1 = document.createElement("header");
-let head = document.createTextNode("Internal Company Directory");
+let title = document.createTextNode("Internal Company Directory");
 
-doc1.appendChild(head);
+doc1.appendChild(title);
 main.appendChild(doc1);
 
 customers.results.forEach(function(data) {
@@ -10,7 +14,7 @@ customers.results.forEach(function(data) {
   <article>
     <div class="customer">
       <div class="image">
-      <img src="${data.picture.medium}">
+      <img src="${data.picture.large}">
       </div>
       <div class="name">
       <h3>${data.name.first}
